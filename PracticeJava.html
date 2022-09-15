@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // let age = parseInt(prompt());
+        // if(age>=18){
+        //     document.write("Person eligiable for vote")
+        // }
+        // else{
+        //     document.write("Person not eligiable for vote")
+        // };
+
+     //------------------------------------------------------   
+        //    let rohan = 24;
+        //    let rahul = 25;
+        //    let akhil = 28;
+          
+        //    if(rohan>akhil && rohan>rahul){
+        //     document.write("Rohan is elder from Akhil and rahul");
+        //    } else if(rahul>akhil &&rahul>rohan){
+        //     document.write("rahul is elder from akhil and rohan");
+        //    } else if(akhil>rohan && akhil>rahul){
+        //     document.write("akhil is elder from rohan and rahu");
+        //    }
+        //    else{document.write("if any condition fall")};
+     //--------------------------------------------------------
+        //    let a = [5,8,4,1,3,6,4];
+        //    let y = [];
+
+        //    for( var i=0; i<a.length; i++){
+        //         for(var j = i+1; j<a.length; j++){
+        //             if (a[i]> a [j]){
+        //             var t = 0;
+        //                 t = a[i]
+        //               a[i] = a[j]
+        //               a[j] = t                       // 5,4,1,3,6,4,8
+        //             }                               // 4,1,3,5,6,4,8 // 1,3,4,5,6,4,8 // 1,3,4,5,4,6,8 // 1,3,4,4,5,6,8
+        //         } 
+        //         y.push(a[i])
+        //    }
+        //    document.write(y);
+     //--------------------------------------------------------------
+      
+
+
+
+        //    var c = a.sort();
+        //    document.write(a+"<br>");
+
+        //  let acendingOder = a.sort(function(a,b){
+        //     return a-b
+        //  })
+        //  document.write(acendingOder+"<br>");
+           
+        
+        //  let decendingOder = a.sort(function(a,b){
+        //     return b-a
+        //  }) 
+        //  document.write(decendingOder);
+
+                           
+        //    if(rohan>akhil && rohan>rahul){
+        //     document.write("Rohan is elder from Akhil and rahul");
+        //    } else if(rahul>akhil &&rahul>rohan){
+        //     document.write("rahul is elder from akhil and rohan");
+        //    } else if(akhil>rohan && akhil>rahul){
+        //     document.write("akhil is elder from rohan and rahu");
+        //    }
+        //    else{document.write("if any condition fall")};   
+     //-----------------------------------------------------------------
+         // let oldArry = [15,14,20,15,78,60,15,20,60];
+         // //output = 60,78,20,14,15
+         // let newArry = [];
+         // for (let h =oldArry.length-1; h>=0; h--){
+         //    let value = oldArry[h];
+         //    let lastIndex = newArry.lastIndexOf(value);
+         //    if(lastIndex==-1){
+         //       newArry.push(value);
+         //    }else {
+         //       newArry.splice(lastIndex,1)
+         //       newArry.push(value)
+         //    }
+         // }
+         // document.write(newArry);
+//---------------------------------------------------------------
+//          let a = [1, 2, 3, 4];
+//          let b = ["ram", "shyam", "sita", "gita"]
+
+// // Checking if the array lengths are same
+// //  and none of the array is empty
+//          function convertToObj(a,b){
+//          if(a.length != b.length || a.length == 0 || b.length == 0){
+//          return null;
+//       }
+   
+//          let obj = {};
+	
+// // Using the foreach method
+//          a.forEach((k, i) => {obj[k] = b[i]})
+//          return obj;
+//       }
+//          document.write(convertToObj(a, b))
+
+//          console.log(convertToObj(a, b))
+
+//*****************************************************************************
+
+//  var a = ["A","B","C","D","E","F","G"];
+
+//  let newArry=[];
+
+//        for(var i=0; i<=4;i++){
+//         var index =  newArry.indexOf(a[i])
+//         if(index==-1){
+//          newArry.push(a[i])};
+//        }
+       
+//        document.write (newArry) 
+//        console.log(newArry)
+
+
+// obj={};
+
+// fields.forEach( function(f, i){
+//     obj[f]={};
+// obj[f]['oldValue']= oldVals[i];
+// obj[f]['newValue']= newVals[i];
+// });
+
+// return obj;
+
+// };
+//********************************************************
+
+//    let student = {
+//     name:"David Rayy",
+//     sclass: "VI",
+//     rollNo: 12
+//    };
+//    document.write(JSON.stringify(student)+"<BR>");
+//    document.write(Object.keys(student).length+"<BR>");
+//  delete student.rollNo
+// document.write(JSON.stringify(student));
+
+
+
+// let data = [
+//                  {name:"deepak",age:21,carName:"polo",address:{vill:"nara",tehsil:"barsar",dist:"hamirpur"}},
+//                  {name:"rakesh",age:34,carName:"volkswagen",address:{vill:"garli",tehsil:"baroli",dist:"bilaspur"}},
+//                  {name:"kartik",age:76,carName:"taigun",address:{vill:"barsar",tehsil:"bhota",dist:"una"}},
+//                  {name:"panku",age:87,carName:"bmw",address:{vill:"bota",tehsil:"hamirpur",dist:"kangra"}}
+//                 ];
+
+//                 var newArray=[];
+
+
+//                 for(var i=0;i<data.length;i++){
+//                     var newObjecr={};
+//                     var name=data[i].name;
+//                     var age=data[i].age;
+//                     var carName=data[i].carName;
+//                     var vill=data[i].address.vill;
+//                     var tehsil=data[i].address.tehsil;
+//                     var dist=data[i].address.dist;
+
+//                     newObjecr["name"]=name;
+//                     newObjecr["age"]=age;
+//                     newObjecr["carName"]=carName;
+//                     newObjecr["vill"]=vill;
+//                     newObjecr["tehsil"]=tehsil;
+//                     newObjecr["dist"]=dist;
+//                     newArray.push(newObjecr) ;              }
+
+//                     document.write(JSON.stringify(newArray));
+
+//  let data = [
+//                  {name:"deepak",age:21,carName:"polo",address:{vill:"nara",tehsil:"barsar",dist:"hamirpur"},
+//                  services:[{cost:2500, costdate:"24-05-2022"},
+//                            {advance:1500, advdate:"28-05-2022"},
+//                            {balPaid:1000, baldate:"04-06-2022"}]},
+//                  {name:"rakesh",age:34,carName:"volkswagen",address:{vill:"garli",tehsil:"baroli",dist:"bilaspur"},
+//                  services:[{cost:3500, costdate:"24-04-2022"},
+//                            {advance:2000, advdate:"24-05-2022"},
+//                            {balPaid:1500, baldate:"04-07-2022"}]},
+//                  {name:"kartik",age:76,carName:"taigun",address:{vill:"barsar",tehsil:"bhota",dist:"una"},
+//                  services:[{cost:4500, costdate:"24-03-2022"},
+//                            {advance:2500, advdate:"28-04-2022"},
+//                            {balPaid:2000, baldate:"04-05-2022"}]},
+//                  {name:"panku",age:87,carName:"bmw",address:{vill:"bota",tehsil:"hamirpur",dist:"kangra"},
+//                  services:[{cost:5500, costdate:"30-05-2022"},
+//                            {advance:1500, advdate:"14-05-2022"},
+//                            {balPaid:1000, baldate:"28-06-2022"}]},
+//                 ];
+
+//                     var newArray  = [];
+                    
+                    
+//                 for(let i=0;i<data.length;i++){                            
+                 
+//                     let value = data[i].services
+//                     for (let j=0;j<value.length;j++){
+
+//                         let a = value[j];                        
+
+//                         newArray.push(a);
+
+//                     }                               
+//                 }         
+//                  document.write(JSON.stringify(newArray))
+
+
+
+let data = [
+                 {name:"deepak",age:21,carName:"polo",address:{vill:"nara",tehsil:"barsar",dist:"hamirpur"},
+                 services:[{cost:2500, costdate:"24-05-2022"},
+                           {advance:1500, advdate:"28-05-2022"},
+                           {balPaid:1000, baldate:"04-06-2022"}]},
+                {name:"kartik",age:76,carName:"taigun",address:{vill:"barsar",tehsil:"bhota",dist:"una"},
+                 services:[{cost:4500, costdate:"24-03-2022"},
+                           {advance:2500, advdate:"28-04-2022"},
+                           {balPaid:2000, baldate:"04-05-2022"}]},
+                 {name:"panku",age:87,carName:"bmw",address:{vill:"bota",tehsil:"hamirpur",dist:"kangra"},
+                 services:[{cost:5500, costdate:"30-05-2022"},
+                           {advance:1500, advdate:"14-05-2022"},
+                           {balPaid:1000, baldate:"28-06-2022"}]},
+                ];
+
+                let name = [];
+                let age = [];
+                let carName = [];
+                let vill = [];
+                let tehsil = [];
+                let  dist = [];
+                let cost = [];
+                let costdate=[];
+                let advance = [];
+                let advdate = [];
+                let balPaid = [];
+                let baldate = [];
+
+                for(let k = 0;k<data.length;k++){
+                    let y = data[k];                  
+              
+                    for(let g = 0;g < y.services.length; g++){
+                        let h = y.services[g];
+
+                             
+
+                    cost.push(h.cost);
+                    costdate.push(h.costdate);
+                    advance.push(h.advance);
+                    advdate.push(h.advdate);
+                    balPaid.push(h.balPaid);
+                    baldate.push(h.baldate);
+                    }
+                    name.push(y.name);
+                    age.push(y.age);
+                    carName.push(y.carName);
+                    vill.push(y.address.vill);
+                    tehsil.push(y.address.tehsil);
+                    dist.push(y.address.dist);
+                           
+                };
+
+                document.write(name +"<BR>");
+                document.write(age+"<BR>");
+                document.write(carName+"<BR>");
+                document.write(vill+"<BR>");
+                document.write(tehsil+"<BR>");
+                document.write(dist+"<BR>");
+                    document.write(cost+"<BR>");
+                    document.write(costdate+"<BR>");
+                    document.write(advance+"<BR>");
+                    document.write(advdate+"<BR>");
+                    document.write(balPaid+"<BR>");
+                    document.write(baldate+"<BR>");
+
+
+
+
+
+
+
+
+
+
+
+             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               
+    </script>
+</body>
+</html>

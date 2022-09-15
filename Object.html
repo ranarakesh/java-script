@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+            //.. Array of Object ..//
+        // var schoolName = [
+        //     {name:"shimla",childStrenth:350},
+        //     {name:"hamirpur",childStrenth:450},
+        //     {name:"solan",childStrenth:500},
+        //     {name:"kullu",childStrenth:300},
+        // ]
+        // // console.log(schoolName);
+        // // document.write(schoolName[0].name);
+
+        // for (var a=0;a<schoolName.length;a++){
+        //     document.write(schoolName[a].name +"  "+schoolName[a].childStrenth+ '<br>');
+        // }
+
+
+        //       //  Const variable With Array and object // 
+
+        // const a ={ 
+        //     name:"Rohan",
+        //     age : 35,
+        //   } 
+        //   a.name="Rahul";
+        //   a.age=45;
+        //   console.log(a);
+        // const a =["Mohan",55] 
+        //   a[0]="Rahul";
+        //   a[1]=30
+        //   console.log(a);
+        
+        
+
+        //    // For/In loop with objects //
+        // var obj = {
+        //     firstName:"Rahul",
+        //     lastName:"sharma",
+        //     age:35,
+        //     emailId:"rakeshrana71710@gmail.com",
+        // }
+        // for(var kay in obj){
+        //     document.write(kay+" :- "+obj[kay]+"<br>")
+        // }
+
+
+        //     //Map()Methord //
+        
+    //     var ary = [
+    //         {fName:"Rohit",lName:"Sharma"},
+    //         {fName:"Raman",lName:"Kumar"},
+    //         {fName:"Pankaj",lName:"Rana"},
+    //         {fName:"Amit",lName:"Verma"},
+    //     ]
+    //     var b = ary.map(test);
+    //     //document.write(b);
+
+    //     function test(y){
+
+    //         return y.fName +" "+y.lName ; 
+    //     }
+
+
+    //     var deepakCar={"carNamr":"Polo","price":13400,"carColor":"Red","carOwnerName":"Deepak"};
+    //     var pankuCar={"carNamr":"Maruti800","price":13400,"carColor":"Black","carOwnerName":"Pankaj"};
+    //     var rubyCar={"carNamr":"Taigun","price":134090,"carColor":"yellow","carOwnerName":"Ruby"};
+
+
+    //  var carAray=[deepakCar,pankuCar,rubyCar];
+    //  //var carOwnerName=["deepak","pankaj","ruby"]
+    //  carAray.forEach(function(value,index){
+    //     var valueDetail=value.carNamr+" "+value.carColor+" "+value.price;
+    //     document.write(valueDetail+"<br>");
+    //  })
+
+    //  var ownerObject=carAray.findIndex(function(value){
+    //     return value.carOwnerName=="Ruby";
+    //  })
+
+    //  var list=carAray.filter(function(v){
+    //   return v.price==13400;
+    //  })
+
+    //  var indexoFBlackCar=carAray.indexOf(function(value){
+    //     return value.carColor=="Red";
+    //  });
+
+    //  var vaulue=carAray.map(function(value){
+    //     var x=value.carOwnerName
+    //     return x;
+    //  });
+
+    //  vaulue.forEach(function(value,index){
+    //     document.write(value);
+    //  });
+
+
+        // deepakObject.carColor="Black"
+        // var carName=deepakObject["carNamr"];
+        // var carPrice=deepakObject["price"];
+        // var carColor=deepakObject["carColor"];
+        // document.write("car name is "+carName+" car color is "+carColor+" car price is "+carPrice);
+
+
+    var ary = [
+        {schoolName:"shimla",cLass:"8th",age:18,studentName:"Rahul"},
+        {cName:"shimla",cLass:"8th",age:18,studentName:"Rahul"},
+        {schoolName:"kullu",cLass:"9th",age:20,studentName:"Rohan"},
+        {schoolName:"hamirpur",cLass:"7th",age:17,studentName:"Amit"},
+        {schoolName:"una",cLass:"8th",age:19,studentName:"Amrik"},
+        {schoolName:"bilaspur",cLass:"10th",age:24,studentName:"Ankit"},
+        {schoolName:"chamba",cLass:"9th",age:28,studentName:"Rudra"},
+        {schoolName:"solan",cLass:"7th",age:25,studentName:"Pankaj"},
+        {schoolName:"kangra",cLass:"12th",age:30,studentName:"Kamal"},
+        {schoolName:"ludhiana",cLass:"11th",age:26,studentName:"Komal"},
+        {schoolName:"chandigarh",cLass:"10th",age:23,studentName:"Kaka"},
+    ]; 
+
+
+    // var nameOf = ary.filter(function(aa){
+    //     return aa;
+    // })
+    // document.write(nameOf.length-1+"<br>")
+
+    // nameOf.forEach(function(z){
+    //     document.write(kay+" "+z.cName[kay]+"<br>")
+    // })
+
+    // for(var kay in nameOf){
+    //     document.write(kay+" : "+nameOf[kay].schoolName+"<br>")
+    // }
+
+        
+            
+    //  var studentAge = ary.filter(function(y) {    
+    //     return y.age==20;
+    // });    
+    // document.write(studentAge.length+" "+"<br>");
+      
+    //   studentAge.forEach(function(z){
+    //     document.write(z.studentName+"<br>")
+    //   })
+
+
+
+
+//     var studentAge = ary.filter(function(even) {
+    
+//     return even.age % 2 == 0;
+// });    
+//      document.write(studentAge.length+"<br>");
+
+
+//     studentAge.forEach(function(y){
+//         document.write(y.age+"<br>");
+//     })
+
+
+    // var indexofage = ary.findIndex(function(y){
+    //     return y.age==20;
+    // })
+    //   document.write(indexofage)
+    //   var value=ary[indexofage];
+    //   document.write(value.studentName);
+
+
+
+    // var student = ary.filter(studentAge);
+    
+    // document.write(student.length+"<br>");
+
+
+    // function studentAge(odd){
+    //     return odd.age % 2 == 1;
+    // }
+
+
+
+
+
+
+
+
+
+
+    
+
+       
+
+
+
+
+        
+    
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    </script>
+
+    
+</body>
+</html>
+

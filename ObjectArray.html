@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // var b = [45,46,"rohan","rahul"];
+        // var a = [55,"vimal","ram"];
+        // var c = b.concat(a);
+        
+        // document.write(c+"<br>");
+//--------------------------------------------------------------//
+        // var a = [55,78,12,45,26,94,15];
+
+        // var b = a.every(ever);
+        // document.write(b);
+
+        // function ever(z){
+        //     return z<100;
+        // }
+//------------------------------------------------------------//        
+        // var a =[
+        //     {"bookName":"art","bookSize":"200pages","bookPrice":150},
+        //     {"bookName":"hindi","bookSize":"250pages","bookPrice":100},
+        //     {"bookName":"english","bookSize":"120pages","bookPrice":200},
+        //     {"bookName":"history","bookSize":"250pages","bookPrice":250},
+        // ];
+
+        // var book = a.map(price);            
+        //     document.write(book);
+
+        // function price(y){
+        //     return y.bookName+" _ "+y.bookSize+" - "+y.bookPrice+"<br>";
+        // };
+//-------------------------------------------------------------//
+        // var a = [2,3,5,6,8,10,11,13,24];
+
+        // var arr=[]
+            
+        // for(var aa=0; aa<=a.length; aa++){
+        //         if(a[aa]%2==0){
+        //                 arr.push(a[aa])
+        //         }
+        // }
+
+        // document.write(arr)
+
+        // for(var aa=0; aa<a.length; aa++){
+        //         if(a[aa]%2==0){
+        //                 arr.unshift(a[aa])
+        //         }
+        // }
+
+        // document.write(arr)
+
+//--------------------------    -----------------------------------//  
+        // document.write("Before Array"+" :- " +a+"<br>");
+
+        // var multi = a.map(function(y){
+        //         return y *3;
+        // });
+        //    document.write("After Array"+" :-  "+multi+"<br>")
+
+        //  var arr=[];
+
+        //    for(var aa=0; aa<multi.length; aa++){
+        //         if(multi[aa]%2==0){
+        //                 arr.push(multi[aa])
+        //         };
+        // };
+
+        // document.write(arr+"<BR>");
+
+        //  var ari=[]   ;    
+        // for(var aa=0; aa<multi.length; aa++){
+        //         if(multi[aa]%2==1){
+        //                 ari.push(multi[aa])
+        //         };
+        // };
+
+        // document.write(ari);
+              
+     //-----------------------------------------------------------------//
+
+        //  var evenN = multi.filter(function(k){
+        //         return k % 2 ==0;
+        //  })
+        //  document.write("this is even no array :- "+evenN+"<br>");
+
+        // //  var oddN = multi.filter(function(h){
+        //         return h % 2 ==1;
+        //  })
+        //  document.write("this is odd no array :-"+oddN);
+    //-----------------------------------------------------------------//   
+       
+         
+        // for (var i=0;i<multi;i++){
+        //         document.write(multi[i][])
+
+        // };
+
+        // var x =new Array(multi)
+
+        // multi.forEach(function(z){
+        //         document.write(z+"<br>")
+        // });
+
+//------------------------------------------------------------------------------//
+
+
+
+        // var deepakCar={"carNamr":"Polo","price":13400,"carColor":"Red","carOwnerName":"Deepak"};
+        // var pankuCar={"carNamr":"Maruti800","price":13400,"carColor":"Black","carOwnerName":"Pankaj"};
+        // var rubyCar={"carNamr":"Taigun","price":134090,"carColor":"yellow","carOwnerName":"Ruby"};
+
+
+        // var carAray=[deepakCar,pankuCar,rubyCar];
+        // var indexOfCar=carAray.indexOf(rubyCar);
+        //     document.write(indexOfCar);
+//-------------------------------------------------------------------------------//
+        // var bookDetail = a.filter(book);
+        // document.write(bookDetail.length+"<br>")
+        // function book(z){
+        //    return z.bookSize=="250pages";
+        // };
+
+        // bookDetail.forEach(function(y){
+        //     document.write(y.bookSize + "<br>")
+        // });
+//-----------------------------------------------------------//
+        // var indx= a.findIndex(function(value){
+        //     return value.bookName=="english";
+        // });
+        // document.write(indx);
+
+//----------------------------------------------------------//     
+
+        // var reduse = [15,12,14,25,37];
+
+        // var sum = reduse.reduce(total)
+
+        // function total (value,curvalue,array,index){
+
+        //     return sum = value+curvalue;
+        // };
+
+        // document.write(sum+2)
+
+//----------------------------------------------------------//
+
+        // var a = [1,2,4,5,2,1,4,6,8,10,6,3,4,3];
+        
+        // var newAry = a.filter(dublicate);
+        // function dublicate(y,index){
+        //         return index ==a.indexOf(y);        
+        // }    
+        //         document.write(newAry+"<BR>");
+
+
+        // var newAry = a.filter(dublicate);
+        // function dublicate(y,lastIndex){
+        //         return lastIndex ==a.lastIndexOf(y);        
+        // }    
+        //         document.write(newAry+"<BR>");    
+
+//----------------------------------------------------------//
+
+//         var z = [...new Set(a)];
+//         document.write(z+"<BR>");
+// //----------------------------------------------------------//
+    
+        // function double(a){
+        // var hello = [];
+        // for (var i=0; i<a.length;i++){
+        //         if(hello.indexOf(a[i])==-1){
+        //                 //document.write(a[i])
+        //             hello.push(a[i]);    
+        //         }    
+        //      } return hello 
+        //  }      
+        //         document.write(double(a)+"<BR");
+
+
+
+//         function doub(a){
+//         var hi = [];
+//         for (var i=0; i<a.length;i++){
+//                 if(hi.lastIndexOf(a[i])==-1){
+//                         //document.write(a[i])
+//                     hi.push(a[i]);    
+//                 }    
+//              } return hi
+//          }      
+//                 document.write(doub(a));
+// //----------------------------------------------------------//
+
+        // var a = [1,2,4,5,2,1,4,6,8,10,6,3,4,3];
+
+    
+        // var hello = [];
+        // for (var i=0; i<a.length;i++){
+        //         for (var j=a.length;j>a;j++){
+        //         var s = 0;
+        //          if(a[i]>a[j]){
+        //                 s = a[i]
+        //                 a[i]=a[j]
+        //                 a[j]=s
+        //          }
+                 
+                
+        //         } 
+        //         hello.push(a[i]);
+
+        //  }
+        //  document.write(hello)
+
+        //  var a = [1,2,4,5,2,1,4,6,8,10,6,3,4,3];
+         // output [5,2,1,8,10,6,4,3]
+
+        // var hello = [];
+        // for (var i=0; i<a.length;i++){
+        //          var value=a[i];
+        //          var index= hello.indexOf(value);
+        //         if(index==-1){
+        //              hello.push(value);
+        //         }else{
+        //              hello.splice(index,1) 
+        //              hello.push(value);
+        //         }
+        //  }
+        //  document.write(hello)
+ //-------------------------------------------------------------
+        //  var type = 'sum';     
+
+        // let obj ={
+        //     val1:10,
+        //     val2:12
+        // }
+    
+           
+        // if(type =='sum'){
+        //         total = obj.val1+obj.val2                               
+        // }else if(type =='substract'){
+        //         total =  obj.val1-obj.val2
+        // }else if(type=='multiple'){
+        //         total =  obj.val1*obj.val2
+        // }else if(type=='divided'){
+        //         total =  obj.val1/obj.val2
+        // }else{'value not match'};
+
+        // document.write(total);
+
+
+        
+       
+
+
+//---------------------------------------------------------------
+
+                
+        // var type = 'multip';     
+        // let obj ={
+        //     val1:10,
+        //     val2:12
+        // }
+
+        
+        // // let total = Object.values(obj);
+        //    let total=''
+
+        //      if(type =='sum'){
+        //         total = obj.val1+obj.val2                               
+        // }else if(type =='substract'){
+        //         total =  obj.val1 - obj.val2
+        // }else if(type=='multiple'){
+        //         total =  obj.val1*obj.val2
+        // }else if(type=='divided'){
+        //         total =  obj.val1/obj.val2
+        // }else{total ='value not match'}; 
+           
+        
+        //    obj.total = total
+        // document.write(JSON.stringify(obj));
+ //---------------------------------------------------------------
+        // var type = 'sum';     
+        // let obj ={
+        //     val1:10,
+        //     val2:12
+        // }           
+        //    let total=''          
+
+        //      if(type =='sum'){
+        //         total = obj.val1+obj.val2                               
+        // }else if(type =='substract'){
+        //         total =  obj.val1 - obj.val2
+        // }else if(type=='multiple'){
+        //         total =  obj.val1*obj.val2
+     
+     
+        // }else if(type=='divided'){
+        //         total =  obj.val1/obj.val2
+        // }else{total ='value not match'}; 
+           
+        
+        // obj.total = total  
+        // document.write(JSON.stringify(obj)+"<BR>");
+
+        // delete obj.total;
+        // document.write(JSON.stringify(obj)+"<BR>");
+        // delete obj.val1;
+        // document.write(JSON.stringify(obj));
+
+//*****************************************************************
+        // let student={
+        //         name:"David Rayy",
+        //         sClass:"VI",
+        //         rollNo:12};        
+        // let keys = Object.keys(student)
+        //         document.write(JSON.stringify(student));
+        //         console.log(keys);
+
+//****************************************************************
+
+//  const carList =[
+//        { id:13, brand: "BMW", model: "X5", price:"$23000", release_date:"2015-10-12"},
+//        { id:9, brand: "Audi", model: "S3", price:"$35000", release_date:"2013-08-23"},
+//        { id:11, brand: "Bugatti", model: "Veyron", price:"$500000", release_date:"2006-02-10"},
+//        { id:7, brand: "VW", model: "Polo", price:"$8000", release_date:"2018-05-03"},
+//        { id:4, brand: "Fiat", model: "Punto", price:"$6000", release_date:"2017-01-25"}
+//         ];
+//**************************************************************************************
+//     let acendingOder = carList.sort(function(a,b){
+//         return a.id-b.id  
+//     })
+//     document.write(JSON.stringify(acendingOder)+"<br><br>")
+
+//*****************        
+
+//     let pert = carList.find(function(check){
+//                 return check;
+//         });        
+//         for( var i=0; i<carList.length;i++ )
+        
+//         //    for(var keys in pert){
+//         //     {
+//         //        document.write(keys+":-"+pert[keys]+"<br>")
+//         //    }}
+         
+          
+//         document.write("id"+":-"+carList[i].id+"<br>")
+//************************************************************************
+
+        // var car = carList.filter(function(carId){
+        //  return carId;
+        // });
+        // let carId=[];
+
+        // for(let i=0;i<carList.length;i++){
+        //         let value = carList[i]
+        //         let index = carId.indexOf(value);
+        //     if (index ==-1){
+        //          carId.push(value)
+        //     }     
+        // }document.write(JSON.stringify(carId[3])+"<BR>");
+//*******************************************************************************
+       
+// var a =[2,3,6,1,3]
+
+// var t =0
+
+// for(var i= 0 ; i<5;i++){
+//         t+=a[i]
+// }
+// console.log(t)
+ 
+//*************************************************************************  
+        
+
+
+        // document.write(car)
+//         let z;
+// console.log(carList.length)
+
+// for( z =0; z<=carList.length; z++)
+//         console.log(carList[z].id)
+
+        // var car = carList.sort(function(carId){
+        //  return carId;
+        // });
+
+        // document.write(carList[z].id)
+
+
+        // var arr = []
+
+        // document.write(arr.push(carList[z].id))
+
+//*******************************************************************
+
+  
+        // let age = [21,34,76,87];
+        // let name = ["deepak","rakesh","kartik","panku"];
+        // let carName = ["polo","volkswagen","taigun","bmw"];
+       
+//        let ary = [];
+
+//        let obj={}
+//        ary.forEach(function(a,b){
+//            obj[a]={};
+//            obj[a]["name"]=name[b];
+//            obj[a]["carName"]=carName[b];
+//            obj[a]["age"]=age[b];
+//            return obj;
+           
+//        })
+//        console.log(obj)
+//        document.write(JSON.stringify(obj))
+//****************************************************************
+
+
+
+        // let ary=[age,name,carName];
+        // let obj={};
+
+        // for (let i=0; i<ary.length; i++){
+        //         let value = ary[i]
+        //         let index = ary.indexOf(value)
+        //         if (index ==-1){
+                        
+        //         }
+
+        
+        // }
+        // document.write(value)
+
+        // var  object={};
+        // object["name"]="deepak";
+        // object["age"]=21;
+        // object["carName"]="polo";
+        // document.write(JSON.stringify(object))
+        
+
+
+        
+         
+ // obj = {"name":"deepak","age":25,"carName":"polo"}
+
+        // let age = [21,34,76,87];
+        // let name = ["deepak","rakesh","kartik","panku"];
+        // let carName = ["polo","volkswagen","taigun","bmw"];
+        // let ary = []
+       
+      
+        //  for (var i=0;i<age.length;i++){
+        //         let obj={}  ;
+        //         let value = age[i];                
+        //         var newName = name[i];                
+        //         var carName1 = carName[i];
+        //         // document.write(value+newName+carName1);    
+                
+        //         obj["name"]=name[i];
+        //         obj["age"]=age[i];
+        //         obj["carName"]=carName[i]  ;
+        //         // document.write(JSON.stringify(obj)); 
+        //         ary.push(obj) 
+        //  }
+        //  document.write(JSON.stringify(ary)); 
+
+ //*********************************************************************        
+         
+// let arrayStudent = [
+//            {address:
+//                 {villName:"nara ",tehsil:"basar",dist:"hamirpur"},
+//                 name:"deepak",age:21,carName:"polo"},
+//            {address:
+//                 {villName:"garli",tehsil:"baroli",dist:"bilaspur"},
+//                 name:"rakesh",age:34,carName:"volkswagen"},
+//            {address:
+//                 {villName:"barsar",tehsil:"bhota",dist:"una"},
+//                 name:"kartik",age:76,carName:"taigun"},
+//            {address:
+//                 {villName:"bota",tehsil:"hsmirpur",dist:"kangra"},
+//                 name:"panku",age:87,carName:"bmw"}
+//         ]
+        //  let name = []
+        //  let age     = [];
+        //  let carName = [];
+        //  let address = [];
+        //  let vill=[];
+        //  let dis=[];
+        //  let tehsil=[];
+         
+        // for (i=0; i<arrayStudent.length;i++){
+        //         let value = arrayStudent[i]
+        //         name.push(value.name)
+        //         age.push(value.age)
+        //         carName.push(value.carName)
+        //         vill.push(value.address.villName)
+        //         dis.push(value.address.dist)
+        //         tehsil.push(value.address.tehsil)
+        //         }
+        //         document.write(name+"<br>")
+        //         document.write(age+"<br>")
+        //         document.write(carName+"<BR>")
+        //         document.write(vill+"<BR>")
+        //         document.write(dis+"<BR>")
+        //         document.write(tehsil+"<br>")
+
+        //                 for(i=0;i<address.length;i++){
+        //                         var sinlePersonAddress=address[i];
+        //                         document.write(JSON.stringify(sinlePersonAddress));
+        //                 }
+
+//***************************************************************************************
+        // let villName = ["nara","garli","barsar","bota"];
+        // let tehsilName = ["barsar","baroli","bhota","hamirpur"];
+        // let  distName = ["hamirpur","bilaspur","una","kangra"];
+        // let name = ["deepak","rakesh","kartik","panku"];
+        // let ages = [21,34,76,87];
+        // let carName1= ["polo","volkswagen","taigun","bmw"];
+        
+        
+
+        // let arrayObject = [];
+      
+
+        // for(let i=0;i<name.length;i++){
+        //         let object = {};
+       
+        //         let ValueOfIndex = name[i]
+        //         let age = ages[i];
+        //         let carName = carName1[i];
+        //         let vill = villName[i];
+        //         let tehsil = tehsilName[i];
+        //         let dist = distName[i];
+                
+                
+        //         // document.write(JSON.stringify(ValueOfIndex+age+carName))
+        //         object["name"]= name[i];
+        //         object["age"] = ages[i];
+        //         object["carName"]= carName1[i];
+        //         object["address"]={vill,tehsil,dist}
+                
+        
+        //         arrayObject.push(object);
+        //         // arrayObject.push(add);}    
+     
+        // document.write(JSON.stringify(arrayObject)+"<BR>")
+        
+
+        // for (let k=0;k<arrayObject.length;k++){
+        //         let address=  {};
+        //         let value1= arrayObject[k];                
+        //          arrayObject.push(address)
+        // }
+        // 
+        // // document.write(JSON.stringify(value1.vill+value1.tehsil+value1.dist))
+
+
+
+
+//      let data = [
+//                  {name:"deepak",age:21,carName:"polo",address:{vill:"nara",tehsil:"barsar",dist:"hamirpur"}},
+//                  {name:"rakesh",age:34,carName:"volkswagen",address:{vill:"garli",tehsil:"baroli",dist:"bilaspur"}},
+//                  {name:"kartik",age:76,carName:"taigun",address:{vill:"barsar",tehsil:"bhota",dist:"una"}},
+//                  {name:"panku",age:87,carName:"bmw",address:{vill:"bota",tehsil:"hamirpur",dist:"kangra"}}
+//                 ];
+//         let newData = [];
+//         // let newobj = {};
+              
+//          for (i = 0; i< data.length; i++){
+//                 let value = data[i]
+//                 let newobj = {};
+
+//                 // document.write(JSON.stringify(value))  
+//                 let forMarge = function(z){
+//                         for( let h in z ){
+//                             if(typeof z[h]== 'object'){
+//                                 forMarge(z[h])
+//                             }else{
+//                                 newobj[h]=z[h]
+//                             };     
+//                         };
+//                 };
+//                 forMarge(value);
+
+//                  newData.push(newobj)
+//                 document.write(JSON.stringify(newobj))   
+
+        
+//         };
+
+//              document.write(JSON.stringify(newData))  
+
+
+
+
+//    for(var i=1, j=10; i<=10;i++,j--){
+//     console.log(i)
+//     console.log(j)
+//     document.write(i)
+//     document.write(j)
+// }
+
+ var newAry = [10,15,25,13,19,16,18,14]
+
+
+
+ for ( var i = 0; i< newAry.length;i++){
+
+       //  document.write(h+"<br>")
+        for (var j =1+i;j<newAry.length;j++){
+                if(newAry[i]>newAry[j]){
+                        let temp = newAry[i]
+                        newAry[i]=newAry[j]
+                        newAry[j]=temp
+                }                
+                // document.write(newAry[i])
+         }
+         for(i=0;i<newAry.length;i++){
+                document.write(newAry[i])
+         }
+ } 
+         
+//  } document.write(temp+"<br>")
+//           function array(hello){      
+//         for (var i=0; i<newAry.length;i++){
+//                 if (newAry[i]+1 > newAry[i]){
+                        
+//                 } 
+//                 // document.write(newAry[i])
+//         }return hello
+
+//         document.write(hello)
+ 
+//  }
+        
+
+    </script>
+    
+</body>
+</html>
